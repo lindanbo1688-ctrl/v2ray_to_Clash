@@ -551,6 +551,15 @@ proxies:
     headers:
       Host: lczoox-b5gygc-24w8tc.rozhaghadri.workers.dev
   skip-cert-verify: false
+- name: '[IR] ️ ShatakVPN 691673'
+  server: "87.248.149.50"
+  port: 443
+  type: vless
+  tls: true
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  servername: base.hosamobenl.co.uk
+  host: base.hosamobenl.co.uk
+  path: /
 - name: '[FR] ️ ShatakVPN 808253'
   server: "45.144.28.39"
   port: 2096
@@ -590,15 +599,6 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-- name: '[US] ️ ShatakVPN 312411'
-  server: "47.253.226.114"
-  port: 443
-  type: vless
-  tls: true
-  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-  servername: www.cloudflare.com
-  host: www.cloudflare.com
-  flow: xtls-rprx-vision
 - name: '[UN] ️ ShatakVPN 294687'
   server: "188.114.96.37"
   port: 443
@@ -722,6 +722,19 @@ proxies:
     public-key: WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4
     short-id: 0123456789abcdef
   client-fingerprint: random
+- name: '[NL] ️ ShatakVPN 852621'
+  server: "9.163.235.73"
+  port: 2083
+  type: vless
+  tls: true
+  uuid: 52a5a29f-c162-411a-8a37-a3f11b0dc537
+  servername: www.apple.com
+  host: www.apple.com
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4
+    short-id: 0123456789abcdef
+  client-fingerprint: random
 - name: '[US] ️ ShatakVPN 956318'
   server: "45.144.112.55"
   port: 443
@@ -735,6 +748,18 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   client-fingerprint: random
+- name: '[TR] ️ ShatakVPN 458737'
+  server: "185.39.204.117"
+  port: 10002
+  type: vless
+  tls: true
+  uuid: facb802c-de2e-11f1-9a22-a3404e852f3b
+  servername: tr2.vpnjantit.com
+  network: ws
+  ws-opts:
+    path: /vpnjantit
+    headers:
+      Host: tr2.vpnjantit.com
 - name: '[BR] ️ ShatakVPN 820457'
   server: "103.14.27.207"
   port: 1270
@@ -750,18 +775,18 @@ proxies:
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: yourultimateprofessionalcareerhub.com
+- name: '[RS] ️ ShatakVPN 864471'
+  server: "38.180.101.235"
+  port: 5443
+  type: trojan
+  password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
+  sni: rs.nebulaguard.org
 - name: '[ES] ️ ShatakVPN 826198'
   server: "66.163.118.62"
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: courses.discovergreatjobsandadvanceyourcareer.com
-- name: '[CA] ️ ShatakVPN 957635'
-  server: "216.152.147.152"
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.connectingpeoplewithgreatjobs.com
 - name: '[US] ️ ShatakVPN 512481'
   server: "170.101.101.211"
   port: 443
@@ -815,6 +840,12 @@ proxies:
   port: 443
   type: trojan
   password: 242a3d8eee5e4ed1a6bfa4141d549a25
+- name: '[CH] ️ ShatakVPN 977800'
+  server: "208.69.78.60"
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: cdn.yourultimateprofessionalcareerhub.com
 - name: '[CA] ️ ShatakVPN 275973'
   server: "216.152.147.74"
   port: 443
